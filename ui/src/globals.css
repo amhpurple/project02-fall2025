@@ -86,3 +86,25 @@ span {
 .form-container button:hover {
     background-color: #ff69b4;
 }
+
+
+
+button {
+    padding: 5px 10px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+.side-note {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+}
