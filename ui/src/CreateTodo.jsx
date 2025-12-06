@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Button, Checkbox, Form, Input } from 'antd';
 
 export default function CreateTodo({ API_URL, onTodoCreated }) {
     const [title, setTitle] = useState('');
@@ -37,5 +38,40 @@ export default function CreateTodo({ API_URL, onTodoCreated }) {
             />
             <button type="submit">Create TODO</button>
         </form>
+
+
+
+        // <Form
+        //     name="basic"
+        //     labelCol={{ span: 8 }}
+        //     wrapperCol={{ span: 16 }}
+        //     style={{ maxWidth: 600 }}
+        //     initialValues={{ remember: true }}
+        //     onFinish={onFinish}
+        //     onFinishFailed={onFinishFailed}
+        //     autoComplete="off"
+        // >
+        // <Form.Item
+        //     label="Todos"
+        //     name="todos"
+        //     rules={[{ required: true, message: 'Please input your todo!' }]}
+        // >
+        // <Input />
+        // </Form.Item>
+
+        // <Form.Item
+        //     label="Notes"
+        //     name="notes"
+        //     rules={[{ required: false, message: 'Please input your notes!' }]}
+        // >
+        // <Input.Notes />
+        // </Form.Item>
+
+        // <Form.Item label={null}>
+        // <Button type="primary" htmlType="submit">
+        //     Submit
+        // </Button>
+        // </Form.Item>
+        // </Form>
     );
 }
