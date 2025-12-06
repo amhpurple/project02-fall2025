@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './globals.css';
 import Todos from './Todos';
 import CreateTodo from './CreateTodo';
-import 'antd'
+import 'antd';
 
 const API_URL = 'http://localhost:8000';
 

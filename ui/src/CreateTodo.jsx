@@ -39,8 +39,6 @@ export default function CreateTodo({ API_URL, onTodoCreated }) {
             <button type="submit">Create TODO</button>
         </form>
 
-
-
         // <Form
         //     name="basic"
         //     labelCol={{ span: 8 }}
