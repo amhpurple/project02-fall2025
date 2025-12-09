@@ -39,37 +39,39 @@ export default function CreateTodo({ API_URL, onTodoCreated }) {
             <button type="submit">Create TODO</button>
         </form>
 
-        // <Form
-        //     name="basic"
-        //     labelCol={{ span: 8 }}
-        //     wrapperCol={{ span: 16 }}
-        //     style={{ maxWidth: 600 }}
-        //     initialValues={{ remember: true }}
-        //     onFinish={onFinish}
-        //     onFinishFailed={onFinishFailed}
-        //     autoComplete="off"
-        // >
-        // <Form.Item
-        //     label="Todos"
-        //     name="todos"
-        //     rules={[{ required: true, message: 'Please input your todo!' }]}
-        // >
-        // <Input />
-        // </Form.Item>
+        // <section>
+        //     <Form
+        //         name="basic"
+        //         labelCol={{ span: 8 }}
+        //         wrapperCol={{ span: 16 }}
+        //         style={{ maxWidth: 600 }}
+        //         initialValues={{ remember: true }}
+        //         onFinish={onFinish}
+        //         onFinishFailed={onFinishFailed}
+        //         autoComplete="off"
+        //     >
+        //     <Form.Item
+        //         label="Todos"
+        //         name="todos"
+        //         rules={[{ required: true, message: 'Please input your todo!' }]}
+        //     >
+        //     <Input />
+        //     </Form.Item>
 
-        // <Form.Item
-        //     label="Notes"
-        //     name="notes"
-        //     rules={[{ required: false, message: 'Please input your notes!' }]}
-        // >
-        // <Input.Notes />
-        // </Form.Item>
+        //     <Form.Item
+        //         label="Description"
+        //         name="description"
+        //         rules={[{ required: false, message: 'Please input your description!' }]}
+        //     >
+        //     <Input.Description />
+        //     </Form.Item>
 
-        // <Form.Item label={null}>
-        // <Button type="primary" htmlType="submit">
-        //     Submit
-        // </Button>
-        // </Form.Item>
-        // </Form>
+        //     <Form.Item label={null}>
+        //     <Button type="primary" htmlType="submit">
+        //         Add Todo
+        //     </Button>
+        //     </Form.Item>
+        //     </Form>
+        // </section>
     );
 }

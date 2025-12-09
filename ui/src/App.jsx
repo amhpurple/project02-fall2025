@@ -4,7 +4,10 @@ import Todos from './Todos';
 import CreateTodo from './CreateTodo';
 import 'antd';
 
-const API_URL = 'http://localhost:8000';
+const API_URL =
+    import.meta.env.VITE_API_URL !== undefined
+        ? import.meta.env.VITE_API_URL // address for production architecture
+        : 'http://localhost:8000';
 
 export default function App() {
     const [refreshTrigger, setRefreshTrigger] = useState(0); // Add this
