@@ -42,13 +42,13 @@ li {
     line-height: 1.4rem;
 }
 
-span {
+/* span {
     font-weight: bold;
     color: black;
     background-color: hotpink;
     padding: 2px 5px;
     border-radius: 5px;
-}
+} */
 
 .form-container {
     max-width: 600px;
