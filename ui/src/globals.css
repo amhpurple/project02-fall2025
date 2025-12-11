@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: hotpink;
+    background-color: rgb(221, 153, 187);
     color: black;
     padding: 10px;
     text-align: center;
@@ -22,7 +22,7 @@ main {
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
-    border: dashed 3px hotpink;
+    border: dashed 3px rgb(105, 34, 70);
 }
 
 ul {
